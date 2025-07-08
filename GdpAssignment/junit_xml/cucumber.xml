@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.005597">
+    <testcase classname="Sentiments Widget Feedback Submission" name="Submit feedback successfully with a high rating" time="0.005597">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given the user is on the WOGAA Documentation website........................undefined
+And the Sentiments widget is visible........................................undefined
+When the user clicks the 'Help us improve' ribbon button....................undefined
+When the user selects a rating of 6.........................................undefined
+And the user chooses the contributing areas: "Website loaded fast, Easy to navigate".undefined
+And the user indicates their interest as "Mobile Applications, Informational Servicess".undefined
+And the user submits the feedback...........................................undefined
+Then the feedback should be submitted successfully..........................undefined
+]]></failure>
+    </testcase>
+</testsuite>

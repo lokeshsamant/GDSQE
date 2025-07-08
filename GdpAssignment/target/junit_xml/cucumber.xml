@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="67.737681">
+    <testcase classname="Sentiments Widget Feedback Submission - Basic Flows" name="Submit feedback successfully with a high or low rating" time="10.985465">
+        <system-out><![CDATA[Given the user is on the WOGAA Documentation website........................passed
+And the Sentiments widget is visible........................................passed
+When the user clicks the 'Help us improve' ribbon button....................passed
+When the user selects the "Low" rating......................................passed
+And the user chooses the respective contributing areas......................passed
+And the user submits the feedback...........................................passed
+Then the feedback should be submitted successfully..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sentiments Widget Feedback Submission - Basic Flows" name="Submit feedback successfully with a high or low rating 2" time="8.045708">
+        <system-out><![CDATA[Given the user is on the WOGAA Documentation website........................passed
+And the Sentiments widget is visible........................................passed
+When the user clicks the 'Help us improve' ribbon button....................passed
+When the user selects the "High" rating.....................................passed
+And the user chooses the respective contributing areas......................passed
+And the user submits the feedback...........................................passed
+Then the feedback should be submitted successfully..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sentiments Widget Feedback Submission - Basic Flows" name="Submit feedback successfully with different rating and interest" time="8.878295">
+        <system-out><![CDATA[Given the user is on the WOGAA Documentation website........................passed
+And the Sentiments widget is visible........................................passed
+When the user clicks the 'Help us improve' ribbon button....................passed
+When the user selects a rating of 6.........................................passed
+And the user chooses the contributing areas: "Website loaded fast, Easy to navigate".passed
+And the user indicates their interest as "Mobile Applications, Informational Servicess".passed
+And the user submits the feedback...........................................passed
+Then the feedback should be submitted successfully..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sentiments Widget Feedback Submission - Basic Flows" name="Submit feedback successfully with different rating and interest 2" time="7.602014">
+        <system-out><![CDATA[Given the user is on the WOGAA Documentation website........................passed
+And the Sentiments widget is visible........................................passed
+When the user clicks the 'Help us improve' ribbon button....................passed
+When the user selects a rating of 5.........................................passed
+And the user chooses the contributing areas: "Easy to find content".........passed
+And the user indicates their interest as "Transactional Services"...........passed
+And the user submits the feedback...........................................passed
+Then the feedback should be submitted successfully..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sentiments Widget Feedback Submission - Basic Flows" name="Submit feedback successfully with a low rating" time="8.061342">
+        <system-out><![CDATA[Given the user is on the WOGAA Documentation website........................passed
+And the Sentiments widget is visible........................................passed
+When the user clicks the 'Help us improve' ribbon button....................passed
+When the user selects a rating of 1.........................................passed
+And the user chooses the contributing areas: "Content not clear, Website loaded slowly".passed
+And the user indicates their interest as "".................................passed
+And the user submits the feedback...........................................passed
+Then the feedback should be submitted successfully..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sentiments Widget Feedback Submission - Basic Flows" name="Submit feedback successfully with a low rating 2" time="8.30242">
+        <system-out><![CDATA[Given the user is on the WOGAA Documentation website........................passed
+And the Sentiments widget is visible........................................passed
+When the user clicks the 'Help us improve' ribbon button....................passed
+When the user selects a rating of 2.........................................passed
+And the user chooses the contributing areas: "Couldn't find content, Difficult to navigate".passed
+And the user indicates their interest as "Mobile Applications, Informational Services".passed
+And the user submits the feedback...........................................passed
+Then the feedback should be submitted successfully..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sentiments Widget Feedback Submission - Basic Flows" name="Submit feedback successfully with a low rating 3" time="8.115688">
+        <system-out><![CDATA[Given the user is on the WOGAA Documentation website........................passed
+And the Sentiments widget is visible........................................passed
+When the user clicks the 'Help us improve' ribbon button....................passed
+When the user selects a rating of 3.........................................passed
+And the user chooses the contributing areas: "Content not clear"............passed
+And the user indicates their interest as "Informational Services"...........passed
+And the user submits the feedback...........................................passed
+Then the feedback should be submitted successfully..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sentiments Widget Feedback Submission - Basic Flows" name="Submit feedback successfully with a low rating 4" time="7.746749">
+        <system-out><![CDATA[Given the user is on the WOGAA Documentation website........................passed
+And the Sentiments widget is visible........................................passed
+When the user clicks the 'Help us improve' ribbon button....................passed
+When the user selects a rating of 4.........................................passed
+And the user chooses the contributing areas: "Technical errors".............passed
+And the user indicates their interest as "Transactional Services"...........passed
+And the user submits the feedback...........................................passed
+Then the feedback should be submitted successfully..........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

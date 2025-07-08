@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.db.testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 70.011 s - in com.db.testrunner.TestRunner
